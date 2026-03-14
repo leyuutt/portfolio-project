@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Webpage</title> 
+    <title>Portfolio-project</title> 
    
 </head>
 <body>
+    <!-- Navigation Menu -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -15,38 +16,40 @@
         </ul>
     </nav>
 <div>
-        <h1>Edl's portfolio</h1>
-        <p>This is a nexus frond end boot camp project given portfolio </p>
+    <!-- Home Section -->
+        <h1 >Edl's portfolio</h1>
+        <h3>Welcome to my portfolio website! Here you can learn more about me, my projects, and how to get in touch.</h3>
     </div>
 <section>
     <h2>About Me</h2>
-    <p>My name is Edl, and I am to be a passionate web developer with a love for creating dynamic and user-friendly websites.<br>
-        I have  alitle experience in HTML, CSS, JavaScript. I enjoy learning new technologies and continuously improving my skills to deliver high-quality projects.</p>
+    <p>My name is Edlawit, and I am to be a passionate web developer with a love for creating dynamic and user-friendly websites.<br>
+ I have  alitle experience in HTML, CSS, JavaScript. <br>
+ I enjoy learning new technologies and continuously improving my skills to deliver high-quality projects.</p>
 <div>
+    <!-- Projects and Hobbies Table -->
     <table>
         <tr>
             <th>Projects</th>
             <th>Hobbies</th>
         </tr>
         <tr>
-            <td>Project 1
-                <ul>
+            <td>
             <li><strong>Project 1:</strong> <br>
-                 A responsive sticker selling website  i built for some enterprenship assignment when i was a pre-enginnering student last year  with slight knowledge of React and typescript.
+                 A responsive sticker selling website  i built for some enterprenship assignment when i was a pre-enginnering student last year  with slight knowledge of React and typescript. <br>
             <a href="https://strvv.netlify.app/" target="_blank">STRVV STICKERS</a>
             </li>
-             </ul>
+             
             </td>
             <td>
                 <ol>
-                    <li>PHOTOGRAPHY 
-                        <a href="#"><img src="./img/imag1.jpg" alt="photography" width="100" height="100"></a>
+                    <li>Photography <br>
+                        <a href="#"><img src="./img/imag1.jpg" alt="photography" width="75" height="55"></a>
                     </li>
-                    <li>Reading books
-                     <a href="#"><img src="./img/read.png" alt="books" width="100" height="100"></a> 
+                    <li>Reading books <br>
+                     <a href="#"><img src="./img/read.png" alt="books" width="75" height="55"></a> 
                     </li>
-                    <li>Watching movies
-                      <a href="#"><img src="./img/watching.png" alt="movies" width="100" height="100"></a> 
+                    <li>Watching movies <br>
+                      <a href="#"><img src="./img/watching.png" alt="movies" width="75" height="55"></a> 
                     </li>
                     
                 </ol>
@@ -59,10 +62,10 @@
 </section>
 
     
-
+<!-- Contact Me Section  -->
 <section>
     <h2>Contact Me</h2>
-    <form action="#" method="post">
+    <form  action="https://formsubmit.co/edlawittesfaye73@gmail.com" method="POST">
         <!-- Text Input -->
         <div>
             <label for="fullname">Full Name:</label>
@@ -86,28 +89,20 @@
             <input type="radio" id="female" name="gender" value="female" required>
             <label for="female">Female</label><br>
             
-            <input type="radio" id="other" name="gender" value="other" required>
-            <label for="other">Other</label>
         </div>
         <br>
 
-        <!-- Checkbox (Subscribe) -->
-        <div>
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe">Subscribe to newsletter</label>
-        </div>
-        <br>
         <!-- Additional Text Input for Message -->
         <div>
             <label for="message">Your Message:</label><br>
-            <input type="text" id="message" name="message" required>
+            <input type="text" id="message" name="message">
         </div>
         <br>
 
         <!-- Submit and Regular Buttons -->
         <div>
             <button type="submit">Submit Form</button>
-            <button type="button">Regular Button</button>
+            
         </div>
     </form>
 
